@@ -63,15 +63,10 @@ namespace QuanLiBanHang.Gui
             kh.ShowDialog();
         }
 
-     
-
-       
-
-       
-        
-
-       
-
-        
+        private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            QuanLiBanHang.Gui.Thong_Ke.ThongKeView temp = new Thong_Ke.ThongKeView();
+            temp.ShowDialog();
+        }
     }
 }

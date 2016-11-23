@@ -1,4 +1,6 @@
-﻿using System;
+﻿using QuanLiBanHang.Gui;
+using QuanLiBanHang.Gui.Thong_Ke;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +18,7 @@ namespace QuanLiBanHang
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QuanLiBanHang.Gui.frmDangNhap());
+            Application.Run(new frmMain());
         }
     }
 }
